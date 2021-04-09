@@ -1,0 +1,526 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#This is a prerequisite to all the test cases in this file"
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 488739677,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate the browser",
+            "match": {
+              "location": "StepDefinition.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173970,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDefinition.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101097,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if the browser is displayed",
+            "match": {
+              "location": "StepDefinition.check_if_the_browser_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 10,
+            "value": "#Scenario1 - Positive"
+          }
+        ],
+        "line": 12,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login-#this-is-requirement;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131889,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11952610,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User login in application with \"Jin\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jin",
+                  "offset": 32
+                },
+                {
+                  "val": "1234",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinition.user_login_in_application_with_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122138,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Cards displayed are \"true\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#This is a prerequisite to all the test cases in this file"
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 414141,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate the browser",
+            "match": {
+              "location": "StepDefinition.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244790,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDefinition.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514725,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if the browser is displayed",
+            "match": {
+              "location": "StepDefinition.check_if_the_browser_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 19,
+            "value": "#Scenario2 - Negative"
+          }
+        ],
+        "line": 21,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login-#this-is-requirement;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154469,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1057676,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User login in application with \"John\" and \"7894\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 32
+                },
+                {
+                  "val": "7894",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinition.user_login_in_application_with_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181668,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Cards displayed are \"false\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#This is a prerequisite to all the test cases in this file"
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 159087,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate the browser",
+            "match": {
+              "location": "StepDefinition.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237605,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDefinition.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121112,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if the browser is displayed",
+            "match": {
+              "location": "StepDefinition.check_if_the_browser_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 27,
+            "value": "#Scenario3 - Negative"
+          }
+        ],
+        "line": 29,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login-#this-is-requirement;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 325873,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 374625,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User login in application with \"John\" and \"7894\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 32
+                },
+                {
+                  "val": "7894",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinition.user_login_in_application_with_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70820,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "Cards displayed are \"false\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#This is a prerequisite to all the test cases in this file"
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7147139,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate the browser",
+            "match": {
+              "location": "StepDefinition.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 434155,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDefinition.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305346,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if the browser is displayed",
+            "match": {
+              "location": "StepDefinition.check_if_the_browser_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 35,
+            "value": "#Scenario4 - Negative"
+          }
+        ],
+        "line": 37,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login-#this-is-requirement;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79543,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User is on Netbanking landing page",
+            "match": {
+              "location": "StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2466884,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User signup with following details",
+            "match": {
+              "location": "StepDefinition.user_signup_with_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Tanushri",
+                  "tanu123",
+                  "tanu@abc.com",
+                  "Bangalore",
+                  "21324345"
+                ],
+                "line": 40
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311504,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "Cards displayed are \"true\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@PortalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Portal Login #This is requirement",
+    "description": "",
+    "id": "portal-login-#this-is-requirement",
+    "keyword": "Feature",
+    "uri": "Account.feature"
+  }
+]

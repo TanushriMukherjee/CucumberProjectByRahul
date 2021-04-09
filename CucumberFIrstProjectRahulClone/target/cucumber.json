@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "# Keywords are all highlighted here because of the plugin natural"
+          }
+        ],
+        "line": 3,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 251081500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on netbanking landing page",
+            "match": {
+              "location": "StepDefination.User_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3158900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login into application with \"Jin\" and \"45611\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jin",
+                  "offset": 34
+                },
+                {
+                  "val": "45611",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefination.user_login_into_application_with_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 371899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefination.cards_displayed_are_something(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 107101,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on netbanking landing page",
+            "match": {
+              "location": "StepDefination.User_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User login into application with \"John\" and \"34343\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 34
+                },
+                {
+                  "val": "34343",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefination.user_login_into_application_with_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 214101,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefination.cards_displayed_are_something(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
