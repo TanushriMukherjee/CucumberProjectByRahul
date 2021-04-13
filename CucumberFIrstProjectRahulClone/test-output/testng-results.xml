@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82" started-at="2021-04-13T20:21:44Z" finished-at="2021-04-13T20:21:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82" started-at="2021-04-13T20:21:44Z" finished-at="2021-04-13T20:21:45Z">
+      <class name="updates.NewClass">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:updates.NewClass@2c767a52]" name="deleteTwitter" duration-ms="21" started-at="2021-04-13T20:21:44Z" finished-at="2021-04-13T20:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:updates.NewClass@2c767a52]" name="postJira" duration-ms="2" started-at="2021-04-13T20:21:45Z" finished-at="2021-04-13T20:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- updates.NewClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
